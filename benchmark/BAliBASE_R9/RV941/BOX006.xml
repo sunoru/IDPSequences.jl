@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/icds/ProjetMotifs/Julie/RV941/BOX006.xml</aln-name>
+<sequence seq-type="Protein">
+<seq-name>O00257</seq-name>
+<seq-info>
+<accession>O00257</accession>
+<nid>O00257</nid>
+<definition>   E3 SUMO-protein ligase CBX4 Chromobox protein homolog 4 Polycomb 2 homolog Pc2 hPHomo sap</definition>
+<organism>   Homo sapiens (Human). Eukaryota   </organism>
+<group>1</group>
+<sense>1</sense>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Chromo.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>516</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>537</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>523</fstart><fstop>533</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>375</fstart><fstop>388</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>388</fstart><fstop>397</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>496</fstart><fstop>507</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>375</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>388</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>496</fstart><fstop>507</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>372</fstart><fstop>395</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>401</fstart><fstop>516</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>523</fstart><fstop>533</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>537</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>495</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>470</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_INSTANCE_LIG_CtBP</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>401</fstart><fstop>405</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>470</fstart><fstop>474</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>573</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>melpavgehvfavesiekkrirkgrveylvkwrgwspkyntwepeenildprlliafqnrerqeqlmgyrkrgpkpkplvvqvptfarrsnvltglqdsstd--nrakldlgaqgkgqghqyelnskkhhqyqphske-gkprppgksg-kyyyqlnskkhhpyqpdpkmydlqyqgghkeapsptc---pdlgaksh--ppdkwaqgagakgylgavkp--lagaagapgkgsekgppngmmpapkeavtgngiggkmkivknknkngrivivmskymengmqavkiksgevaegearspshkkraaderhppadrtfkkaaga-eekkveappkrreeevsgvsdpqpqdagsrklsptkeafgeqplqlttkpdllawdparnthppshhphphphhhhhhhhhhhhavglnlsh--vrkrclsethgerepckkrltarsistptclggspaaerpadlpp-aaalrqpevilldsdldepidlrsvksrseageppsslqvkpetpasaavavaaaaaptttaekppaeaqdepaeslsefkpffgniiitdvtancltvtfkeyvtv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O93482</seq-name>
+<seq-info>
+<accession>O93482</accession>
+<nid>O93482</nid>
+<definition>   Chromobox protein CHCB3.</definition>
+<organism>   Gallus gallus (Chicken). Eukaryota   </organism>
+<group>1</group>
+<sense>1</sense>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from O00257</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>502</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>488</fstart><fstop>498</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>459</fstart><fstop>474</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>482</fstart><fstop>489</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>459</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>482</fstart><fstop>489</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>367</fstart><fstop>372</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>498</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>502</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>378</fstart><fstop>382</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>439</fstart><fstop>443</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>573</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>melpavgehvfavesiekkrirkgrveylvkwrgwspkyntwepeenildprlliafqnrerqeqlmgyrkrgpkpkplvvqlpsfarrsniltglqdptvd--trpkldlgssgksqqhqyelnskkhhqyqpngke-sgvkhqshskgkyyyqlnskkhhhyqpdpkmyephyhpsgkepqgqac---ldstksplgahpdkwahg-aaknllgpvkn--laaesk---ngaeknlssgtgppprdrvtsnglggkmkivknknkngrivivmskymengmqavkiksgepprkrapeertakkggeekleawrkpgeeravgsnglsaaegesrqpaaelqegprkpspgkelplp-----vaeqplqlttkpdlvpwslspg------------------rehspssmglnlsspgarkrclsephgdrepgkkrltsrsisaptclg----perp-elpa------qpevilldsdldepidlrcvkpraeg--eaalvqvkpeepp--apaeqppveppqqprqaaeeeeeeeaeglrefkpffgniiitdvtancltvtfkeyvtv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q91647</seq-name>
+<seq-info>
+<accession>Q91647</accession>
+<nid>Q91647</nid>
+<definition>   XPolycomb.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota   </organism>
+<group>1</group>
+<sense>1</sense>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from O00257</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>133</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>500</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>488</fstart><fstop>496</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>468</fstart><fstop>471</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>221</fstart><fstop>234</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>221</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>199</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>354</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>363</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>389</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>496</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>500</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>363</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>455</fstart><fstop>459</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>573</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>melpavgehvfavesiekkrirkgrveylvkwrgwsskyntwepeenildprllvafqnrerqeqimgyrkrgpkpknnlvsmpsfarrsnvlsglhdssge--nrtkldlgpipks--hqyqlnskkhhqyqpsgkdhnekhhssnkk-kyyyqlnskkhhhyqpdpklyeqytiekesqistdvrnrhrdslthtqaadmgtqlkngtdsvisgperngicngvssspstemssspstelssspstelpssgvggkmkivknknkngrivivmskymengmqsvkiksse-edcdmgdvrrrfdspgtlngdktctaqeektehwkkrvesrvkihegsksvdkgsvhlaglrrtystasetlndqplqlttksshvpmpnrtr------------------spvyagepyndlvytnprkrclseangnkelckktltsrsvsap---g---iveckggltplnvplqepdiilldsdldepidlrcvksrcds-----dqevd---------------kpeiqvtqnpqsvdvdvce--sqfkpffgnivitdvtancltvtfkeyitv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q804D1</seq-name>
+<seq-info>
+<accession>Q804D1</accession>
+<nid>Q804D1</nid>
+<definition>   Polycomb 2.</definition>
+<organism>   Brachydanio rerio (Zebrafish) (Danio rerio). Eukaryota   </organism>
+<group>1</group>
+<sense>1</sense>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q14781</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>137</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>456</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>444</fstart><fstop>452</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>98</fstart><fstop>119</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>132</fstart><fstop>374</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>390</fstart><fstop>448</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>98</fstart><fstop>119</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>132</fstart><fstop>374</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>390</fstart><fstop>448</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>452</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>456</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>341</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>419</fstart><fstop>423</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>573</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>melpavgehvfavegiekkrlrkgrmeylvkwrgwspkyntwepeenildprllvafqnrerqeqmvgyrkrgpkpkhpliqlpafarrssilgglqdtsldeenqpkvdslqmhrsrpqhyqlnskkhhqyqpsckeisveqhmsgkk-khfyqlnskkhhhyqpdpkmydtpltgpkevkgqdps---nkgwnlpp-alqqkwirn-kdtgclskvkd--lsielkg-lpdnankaertlktsakefalpngisskmkiiknknkngrivivmskymdkgvhsskvknrdvs--qvgtvhneeppvngtdnrsdgetpdqgegrengsiekpseyvdekslrkdmp-----------------gqkateicdrpn-----------------------------sspakvdaksnh---lkrhlsepsedvrnckqllsfrsisapn----sspqrepinlhyksspvdnydfs--dsipeepidlsaktlk----------------------------rftaldkvsgssaqmdktd--sqckafvgnviitdittncltvtfkeyvqe
+</seq-data></sequence>
+</alignment>
+</macsim>

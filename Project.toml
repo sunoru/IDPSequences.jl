@@ -1,0 +1,7 @@
+name = "IDPSequences"
+uuid = "61a8feb5-d65b-47fd-a8e3-cddcbd030fc4"
+authors = ["Sunoru <s@sunoru.com>"]
+version = "0.1.0"
+
+[deps]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"

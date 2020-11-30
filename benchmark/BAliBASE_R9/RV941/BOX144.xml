@@ -1,0 +1,668 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/icds/ProjetMotifs/Julie/RV941/BOX144.xml</aln-name>
+<sequence seq-type="Protein">
+<seq-name>P30307</seq-name>
+<seq-info>
+<accession>P30307</accession>
+<nid>P30307</nid>
+<definition>   M-phase inducer phosphatase 3 EC 3.1.3.48 Dual specificity phosphatase Cdc25C.</definition>
+<organism>   Homo sapiens (Human). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>321</fstart><fstop>428</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Rhodanese.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>93</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>314</fstart><fstop>422</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>93</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>314</fstart><fstop>422</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>27</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>39</fstart><fstop>465</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>307</fstart><fstop>322</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>343</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>372</fstart><fstop>386</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>387</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>400</fstart><fstop>418</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>425</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>438</fstart><fstop>448</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>279</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>349</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>364</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>456</fstart><fstop>465</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_51</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>438</fstart><fstop>440</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>441</fstart><fstop>448</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>383</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>415</fstart><fstop>419</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>286</fstart><fstop>289</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>307</fstart><fstop>314</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>369</fstart><fstop>376</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>409</fstart><fstop>412</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>263</fstart><fstop>266</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>403</fstart><fstop>405</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>329</fstart><fstop>337</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>378</fstart><fstop>382</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>467</fstart><fstop>469</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>362</fstart><fstop>370</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>455</fstart><fstop>463</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>464</fstart><fstop>466</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>304</fstart><fstop>305</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>321</fstart><fstop>428</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>321</fstart><fstop>428</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>377</fstart><fstop>377</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>216</fstart><fstop>216</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 CHK2 and BRSK1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>198</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine from MPIP3_HUMAN</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>246</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 CHK2 and BRSK1 from MPIP3_HUMAN</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>209</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine By similarity from P48967</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>70</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) C (in dbSNP:rs3734166). </fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>297</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) R (in dbSNP:rs11567997). </fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>14</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>S -) N (in dbSNP:rs11567959). </fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>78</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>S -) N (in dbSNP:rs11567962). </fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>213</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_INSTANCE_LIG_14-3-3_1</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>213</fstart><fstop>218</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------mstelfsstreegssgsgpsfrsnqrkmlnlllerdts---ftvcpdvprtpvgkflgdsanlsilsggtpk------------rcldlsnlssgeitatqlttsadl---detghldssglqevhl----------agmnhdqhlmkcspaqllcstpngldrghrkrdamc------------sssanken-----------------------------------------dngnlvds---------------------------emkylgspittvpkldk-npnlgedqaeeisdelm--efslkdqeakvs----------------------------------------------rsglyrspsmpe-nlnrprlkqvekfkdntipdkvkkkyfsgqgk---------lrkg-----------lclkktvslcdititqmleedsnqghligdfskvcalptvsgkhqdlkyvnpetvaallsgkfqgliekfyvidcrypyeylgghiqgalnlysqeelfnfflkkpivpldtqkriiivfhcefssergprmcrclreedrsln--qypalyypelyilkggyrdffpeymelcepqsycpmhhqdhktellrcrsqskvqegerqlreqiallvkdmsp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>P30311</seq-name>
+<seq-info>
+<accession>P30311</accession>
+<nid>P30311</nid>
+<definition>   M-phase inducer phosphatase 3 EC 3.1.3.48.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>420</fstart><fstop>527</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Rhodanese.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>116</fstart><fstop>371</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>413</fstart><fstop>521</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>46</fstart><fstop>536</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>58</fstart><fstop>564</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>397</fstart><fstop>405</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>406</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>424</fstart><fstop>442</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>471</fstart><fstop>485</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>486</fstart><fstop>498</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>499</fstart><fstop>517</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>524</fstart><fstop>536</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>537</fstart><fstop>547</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>396</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>448</fstart><fstop>462</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>463</fstart><fstop>469</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>303</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>555</fstart><fstop>564</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>327</fstart><fstop>340</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_51</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>68</fstart><fstop>70</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>537</fstart><fstop>539</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>540</fstart><fstop>547</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>482</fstart><fstop>496</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>514</fstart><fstop>518</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>385</fstart><fstop>388</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>406</fstart><fstop>413</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>468</fstart><fstop>475</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>508</fstart><fstop>511</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>362</fstart><fstop>365</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>502</fstart><fstop>504</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>428</fstart><fstop>436</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>477</fstart><fstop>481</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>566</fstart><fstop>569</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>461</fstart><fstop>469</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>554</fstart><fstop>562</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>563</fstart><fstop>565</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>403</fstart><fstop>404</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>420</fstart><fstop>527</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>476</fstart><fstop>476</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine from P30307</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>306</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 CHK2 and BRSK1 from P30307</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>299</fstart><fstop>299</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine By similarity from P48967</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>336</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>303</fstart><fstop>308</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>335</fstart><fstop>340</fstop><fcolor>26</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>165</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>292</fstart><fstop>355</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>562</fstart><fstop>572</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mikervtppfqasggsgvvmaeshiisseappksnpglnirtncrmilnllrekdcs---vtfspeqpltpvtdlavgfsnlstfsgetpk------------rcldlsnlg--detaplptespdr---mssgklespktqfvqfdglftpdlawkakkcpkrnmnsvlphllcstpsfkkasggqr-----------------slsnken---egelfknpnckpvalllp----qevvdsqlsptpenkvdisldedc---------------------------emnilgspisadppcldgahddikmqnldgfadff---svdeeemenppgavgnlscsmaillsgpllnqdveisnvnnisln------------rsrlyrspsmpe-kldrpmlkrpvrplnsetpvrvkrrrstssplqpeeencqpqrrg-----------tslkktlslcdvdissvldedcghrqligdfskvyalptvtgrhqdlryitgetlaalmhgdfnslvekffiidcrypyeydgghiksafnlhrqdevtdyflqqpltplmaqkrliiifhcefssergpkmcrslreedrasn--dypslyypelyllkggykdffpeykelcepqsycpmhhqdfredllkfrtkcktsvgdrkrrepefrltgqrlg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q5ZHY7</seq-name>
+<seq-info>
+<accession>Q5ZHY7</accession>
+<nid>Q5ZHY7</nid>
+<definition>   Hypothetical protein.</definition>
+<organism>   Gallus gallus (Chicken). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>408</fstart><fstop>515</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>99</fstart><fstop>361</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>401</fstart><fstop>509</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>18</fstart><fstop>524</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>30</fstart><fstop>552</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>76</fstart><fstop>90</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>241</fstart><fstop>256</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>181</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>385</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>409</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>412</fstart><fstop>430</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>459</fstart><fstop>473</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>474</fstart><fstop>486</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>487</fstart><fstop>505</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>512</fstart><fstop>524</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>525</fstart><fstop>535</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>366</fstart><fstop>384</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>436</fstart><fstop>450</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>451</fstart><fstop>457</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>543</fstart><fstop>552</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_43</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_44</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>253</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>291</fstart><fstop>292</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>320</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>364</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_49</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>525</fstart><fstop>527</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>528</fstart><fstop>535</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>470</fstart><fstop>484</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>502</fstart><fstop>506</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>373</fstart><fstop>376</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>394</fstart><fstop>401</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>456</fstart><fstop>463</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>496</fstart><fstop>499</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>352</fstart><fstop>355</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>490</fstart><fstop>492</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>416</fstart><fstop>424</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>465</fstart><fstop>469</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>554</fstart><fstop>557</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>449</fstart><fstop>457</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>542</fstart><fstop>550</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>551</fstart><fstop>553</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>391</fstart><fstop>392</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>408</fstart><fstop>515</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>464</fstart><fstop>464</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>205</fstart><fstop>205</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 By similarity from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>329</fstart><fstop>329</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>248</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>296</fstart><fstop>301</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>357</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------maarsalspprpp---rrpralpglgalrpgg--apaasglaamspvttlardmdmltglgshcdtprrkvaggalqrcrlsrassgssqdsissegsdagvglespteeedpeameeifekavleagkiitdkkflirrihslpprllgsspalrdvsncsafsspr-----------gggqrrdd---egavfkkpqrpghrsrvp-amegapgkepcvprpssapdllfdtpekenlreaes--------------------------pvvlrrcsltsavgddeeeddgfmeild-eeemkseaevppgmaslltaplvrk--eeaeprp-------------------tkrskcrqlfrspsmps-svirpilkrmerphshdspvkskrrrsvagtpgegaepetqkarl--------------lrsrsfcqeeienmlan--dqreligdfsktyllqtvegkhqdlkyispemmvavlsghfssaiescvivdcrypyeyegghikgavnlpmeqdvedfllkkpivpfdaskrvivifhcefssewgprmcrfvrekdracn--eyphlhypelyvlkggyreffpqyqahcepqdyrpmhhadfkedlrkcrlksrtwagerskrelysrlknc---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>MPIP2_HUMAN__2</seq-name>
+<seq-info>
+<accession>MPIP2_HUMAN__2</accession>
+<nid>MPIP2_HUMAN__2</nid>
+<definition>   M-phase inducer phosphatase 1-B EC 3.1.3.48.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>417</fstart><fstop>524</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>99</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF06617 M-inducer_phosp from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>410</fstart><fstop>518</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_PF00581 Rhodanese from P30305</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>28</fstart><fstop>533</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>40</fstart><fstop>561</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>28</fstart><fstop>40</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>74</fstart><fstop>87</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>402</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>403</fstart><fstop>418</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>421</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>468</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>483</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>496</fstart><fstop>514</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>521</fstart><fstop>533</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>534</fstart><fstop>544</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>375</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>445</fstart><fstop>459</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>460</fstart><fstop>466</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>552</fstart><fstop>561</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>40</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_43</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_44</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>260</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>295</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>342</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_49</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>534</fstart><fstop>536</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>537</fstart><fstop>544</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>479</fstart><fstop>493</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>511</fstart><fstop>515</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>418</fstart><fstop>425</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>382</fstart><fstop>385</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>429</fstart><fstop>433</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>403</fstart><fstop>410</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>520</fstart><fstop>522</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>523</fstart><fstop>526</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>446</fstart><fstop>454</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>465</fstart><fstop>472</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>505</fstart><fstop>508</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>361</fstart><fstop>364</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>499</fstart><fstop>501</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>474</fstart><fstop>478</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>551</fstart><fstop>559</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>560</fstart><fstop>562</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>400</fstart><fstop>401</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>441</fstart><fstop>442</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>436</fstart><fstop>437</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>417</fstart><fstop>524</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PS50206 RHODANESE_3 from P30305</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>473</fstart><fstop>473</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>215</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 By similarity from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>339</fstart><fstop>339</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>257</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>134</fstart><fstop>139</fstop><fcolor>26</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>306</fstart><fstop>311</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------mevpqpepapgsalspagvcggaqrpghlpglllgshgl--lgspvraaasspvttltqtmhdlaglgsrsrlt----------hlslsrrasesslssessessdaglcmdspsp-mdphmaeqtfeqaiqaasriirneqfairrfqsmpvrllghspvlrnitnsqapdgrrkseags-gaasssgedken---dgfvfkmpwkpthpssthalaewasrreafaqrpssapdlmclspdrkmeveels--------------------------plalgrfsltpaeg-dteeddgfvdil--esdlkdddavppgmeslisaplvktlekeeekdl-------------------vmyskcqrlfrspsmpc-svirpilkrlerpqdrdtpvqnkrrrsvt-ppeeqqeaeepkarv--------------lrskslchdeienllds--dhreligdyskafllqtvdgkhqdlkyispetmvalltgkfsnivdkfvivdcrypyeyegghiktavnlplerdaesfllkspiapcsldkrvilifhcefssergprmcrfirerdravn--dypslyypemyilkggykeffpqhpnfcepqdyrpmnheafkdelktfrlktrswagersrrelcsrlqdq---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q8WSQ5</seq-name>
+<seq-info>
+<accession>Q8WSQ5</accession>
+<nid>Q8WSQ5</nid>
+<definition>   Cdc25.</definition>
+<organism>   Asterina pectinifera (Starfish). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>441</fstart><fstop>546</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>430</fstart><fstop>540</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>88</fstart><fstop>434</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF06617 M-inducer_phosp from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>16</fstart><fstop>555</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>30</fstart><fstop>582</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>275</fstart><fstop>286</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>418</fstart><fstop>426</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>427</fstart><fstop>442</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>445</fstart><fstop>462</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>502</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>503</fstart><fstop>515</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>518</fstart><fstop>536</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>543</fstart><fstop>555</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>556</fstart><fstop>566</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>399</fstart><fstop>417</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>468</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>313</fstart><fstop>319</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>574</fstart><fstop>582</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_43</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>250</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>252</fstart><fstop>283</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>337</fstart><fstop>350</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>556</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>559</fstart><fstop>566</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>499</fstart><fstop>513</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>533</fstart><fstop>537</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>406</fstart><fstop>409</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>427</fstart><fstop>434</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>527</fstart><fstop>530</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>521</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>448</fstart><fstop>456</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>494</fstart><fstop>498</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>490</fstart><fstop>494</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>424</fstart><fstop>425</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>440</fstart><fstop>546</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>493</fstart><fstop>493</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>346</fstart><fstop>346</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>245</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>313</fstart><fstop>318</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_FN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>394</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------maadktkevlnrkrrslsllltqkdempfspifakmggaspmtslamnmgeltcvgntpkr-----------rlslsstgdtpvssrassqssdavvfyldspadeedspfldqgpsafrrvnsqpsprvtakppvfslskelkddqggpccqatesegadsrrnrse--timweacndken---vdiqnkistfqagrprqisfiesgttdkagkarpisapatlldqssrpqtivvns--------------------------pvklqhsrlts--sndedgedgftdifsgdsnqptesgisdglcslmnapllvtsppt--ptttttcseplrdldcntladtpgpkcrrgifkvpsqpv-lrrgaflkrpdrprdtpspvqskryrscsiantsdvnketmhmqtnksprarplsrshsmddsteyhariamalmpnvdytkltgdlkkpytlplckgkhqdlqsitpetlcqilrsevgevkeh-yildcrypyeyngghirgaqnlytkelvsqfflenpme---prdgrviifhcefsskrgpdllrflrnkdreancdrypdlyypelyillggykafyendktlcepqsytpmdhegyrkeclhfkakakswagersrpgsp---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q4F782</seq-name>
+<seq-info>
+<accession>Q4F782</accession>
+<nid>Q4F782</nid>
+<definition>   Cdc25.</definition>
+<organism>   Anabas testudineus (Climbing perch). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>456</fstart><fstop>563</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>103</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>449</fstart><fstop>557</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>31</fstart><fstop>572</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>45</fstart><fstop>600</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>197</fstart><fstop>295</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>197</fstart><fstop>295</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>231</fstart><fstop>295</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>10</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>197</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>433</fstart><fstop>441</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>457</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>460</fstart><fstop>478</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>507</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>522</fstart><fstop>534</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>535</fstart><fstop>553</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>560</fstart><fstop>572</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>573</fstart><fstop>583</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>432</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>484</fstart><fstop>498</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>499</fstart><fstop>505</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>337</fstart><fstop>343</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>591</fstart><fstop>600</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>156</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>332</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>361</fstart><fstop>374</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>390</fstart><fstop>410</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_49</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>573</fstart><fstop>575</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>576</fstart><fstop>583</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>518</fstart><fstop>532</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>550</fstart><fstop>554</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>421</fstart><fstop>424</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>442</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>504</fstart><fstop>511</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>544</fstart><fstop>547</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>398</fstart><fstop>401</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>538</fstart><fstop>540</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>464</fstart><fstop>472</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>513</fstart><fstop>517</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>602</fstart><fstop>605</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>497</fstart><fstop>505</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>590</fstart><fstop>598</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>599</fstart><fstop>601</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>439</fstart><fstop>440</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>456</fstart><fstop>563</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>512</fstart><fstop>512</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>221</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 By similarity from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>370</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>290</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>337</fstart><fstop>342</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>323</fstart><fstop>376</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------mestnvfgstsplnsvlksrpdaipglssltlpelstktthcrnlfspgpatvlspvtnlaldmnnlvglgsncdtp-----------krrkhaplekvpsfasdvssdaglgmdppsp-mdavevedtfekaiqqssrvv-nekmpirrinslplqllgfspslkgqetdshrygifgqqpfqitapsshcddkenmpeegfefkkptkpvsrcrvrsfngge-skdafarrpssapalmfsspptaqqldfydssrcpetffphqfcpptxqqlilglspivlrrffphhlsqttmmttmaflevl--ddnmennsgmpmgmaslltaplvsdstgedsp---------------------vircrprslfrspsmps-pvsrlsikrpdcpeddntpvrvkrrrsvagtqvtsleqnfesprmg---------csllqrsksfcqteieklltmrdgsneligdftkpfilstvdgkhqdlkyitsevmvdalsgkfnhlveqvivivcrypyefegghikgalnlhqedqvenfllktpiipscsekrvviilhcefssergprmcrfvrerdramn--dypklhyvelyilkggdkdffphfqsqcepqayrpmhhedfkedlrkfrlksrtwagerskrdmysrlkkl---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>P48964</seq-name>
+<seq-info>
+<accession>P48964</accession>
+<nid>P48964</nid>
+<definition>   M-phase inducer phosphatase 1 EC 3.1.3.48 Dual specificity phosphatase Cdc25A.</definition>
+<organism>   Mus musculus (Mouse). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>366</fstart><fstop>472</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Rhodanese.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>84</fstart><fstop>319</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>359</fstart><fstop>466</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>20</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>29</fstart><fstop>509</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>142</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>287</fstart><fstop>314</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>142</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>287</fstart><fstop>314</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>151</fstart><fstop>204</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>287</fstart><fstop>324</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>343</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>416</fstart><fstop>430</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>431</fstart><fstop>443</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>462</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>469</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>482</fstart><fstop>492</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>408</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>414</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>252</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>500</fstart><fstop>509</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>247</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>482</fstart><fstop>484</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>485</fstart><fstop>492</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>427</fstart><fstop>441</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>459</fstart><fstop>463</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>331</fstart><fstop>334</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>378</fstart><fstop>382</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>352</fstart><fstop>359</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>471</fstart><fstop>474</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>395</fstart><fstop>403</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>413</fstart><fstop>420</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>453</fstart><fstop>456</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>447</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>367</fstart><fstop>374</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>422</fstart><fstop>426</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>468</fstart><fstop>470</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>511</fstart><fstop>514</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>493</fstart><fstop>496</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>499</fstart><fstop>507</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>508</fstart><fstop>510</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>349</fstart><fstop>350</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>366</fstart><fstop>472</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>421</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>171</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>122</fstart><fstop>122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 and CHK2 By simi</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>497</fstart><fstop>497</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine by CHK1 By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>284</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 and CHK2 By simi</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>271</fstart><fstop>271</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CHK1 and CHK2 By simi</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>208</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>323</fstart><fstop>323</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>252</fstart><fstop>256</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_FN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>316</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------melgpsppprr-lffacsptpas---qptgkm--lfgasaagglspvtnltvtmdqleglgsdcek--------------mevrnnsslqrmgssestdsgfcldspgpldske------------------nleisltrinslpqkllgcspalkrshsdsldqdtfhlid--------qdknkene---afepkkqydlhls-----shlqeskdlytqrqnsaqlgmlssnes---esgnfs--------------------------plftpqspvk---atlsdeddgfidlld-genlkndeetptsmvslwtaplvmrrpanla-------------------------drlrglfdsps-pcgsstravlkradrsheepprg-tkrrks-vpspvkakadvpepaql----------psqslslmsspkgtienilds--dprdligdfskgylfntvsgkhqdlkyispeimasvlngkfaslikefviidcrypyeyegghikgavnlhmeeevedfllknpivptd-gkrvivvfhcefssergprmcryvrerdrlgn--eypklhypelyvlkggykefflkcqshceppsyrpmhhedfkedlkkfrtksrtwagekrkremysrlkkl---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q640K0</seq-name>
+<seq-info>
+<accession>Q640K0</accession>
+<nid>Q640K0</nid>
+<definition>   LOC398141 protein.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>377</fstart><fstop>483</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>83</fstart><fstop>330</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>370</fstart><fstop>477</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>16</fstart><fstop>492</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>28</fstart><fstop>520</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>354</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>363</fstart><fstop>378</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>381</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>427</fstart><fstop>441</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>454</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>455</fstart><fstop>473</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>480</fstart><fstop>492</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>493</fstart><fstop>503</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>335</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>405</fstart><fstop>419</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>420</fstart><fstop>425</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>109</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>511</fstart><fstop>520</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>184</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_43</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_44</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>261</fstart><fstop>262</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>303</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_49</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>493</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>496</fstart><fstop>503</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>438</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>470</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>342</fstart><fstop>345</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>389</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>363</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>482</fstart><fstop>485</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>424</fstart><fstop>431</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>464</fstart><fstop>467</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>458</fstart><fstop>460</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>378</fstart><fstop>385</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>433</fstart><fstop>437</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>522</fstart><fstop>525</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>403</fstart><fstop>410</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>504</fstart><fstop>507</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>510</fstart><fstop>518</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>519</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>360</fstart><fstop>361</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>377</fstart><fstop>483</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>432</fstart><fstop>432</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>299</fstart><fstop>299</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>229</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>3</fstart><fstop>8</fstop><fcolor>26</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>266</fstart><fstop>271</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_FN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>163</fstart><fstop>313</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------merfrsapahvrgssrlsglpvvkslf--sceadta--lspvtslalnmdqlaglgsqcetp------------trkledrwsmqrtdssesmdaglcldspik-mdlrdteetfqkttpdrvrv-ghtrlpigrrnslpqnllgsspafkrnlsyslecevfhl---------adlenkene---tfqfkiparprsrgcfrsrlhgd-gkeglvqrqksapacmlssprk-tevaasd--------------------------mvfvrksstas--tstegsddgfldmld-gedlendlefpcgvaslwtaplvmk--------------------------------stenfvearaepn-cttkpvlkrverpldedtpekskrrksmseivnegldhdkn---------------trymrsksfssqsietildn--dqvdligdfskvflfptvsgrhqelkyitpemmvlilngrfdpfierfvvidcrypyeyqgghiqgainlhmeqeaeeyflknpissst-ckrvilifhcefssergprmckflrekdrdrn--eypqlhypelyilhggykeffqkcktyctpqsyrpmnhedfkedlrkfrmksrtwagerskrelysrlkkl---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q6RUW4</seq-name>
+<seq-info>
+<accession>Q6RUW4</accession>
+<nid>Q6RUW4</nid>
+<definition>   Cell division cycle 25A protein.</definition>
+<organism>   Bufo bufo gargarizans (Asian toad). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>376</fstart><fstop>482</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Rhodanese. from P30305</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>85</fstart><fstop>329</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06617 M-inducer_phosp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>369</fstart><fstop>476</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00581 Rhodanese</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>16</fstart><fstop>491</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>28</fstart><fstop>519</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>353</fstart><fstop>361</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>362</fstart><fstop>377</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>380</fstart><fstop>398</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_20</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>426</fstart><fstop>440</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>441</fstart><fstop>453</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_23</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>454</fstart><fstop>472</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>479</fstart><fstop>491</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>492</fstart><fstop>502</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_29</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>352</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_32</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>404</fstart><fstop>418</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>419</fstart><fstop>424</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_34</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_36</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_37</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>510</fstart><fstop>519</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_39</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>49</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_40</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_41</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_43</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_44</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_45</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>260</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_46</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>262</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_47</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>303</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_48</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>313</fstart><fstop>332</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_49</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>492</fstart><fstop>494</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>495</fstart><fstop>502</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>437</fstart><fstop>451</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>469</fstart><fstop>473</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>341</fstart><fstop>344</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>362</fstart><fstop>369</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>423</fstart><fstop>430</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>463</fstart><fstop>466</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30305</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>320</fstart><fstop>323</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>457</fstart><fstop>459</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>384</fstart><fstop>392</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP2_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>432</fstart><fstop>436</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P30304</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>521</fstart><fstop>524</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>509</fstart><fstop>517</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>518</fstart><fstop>520</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>359</fstart><fstop>360</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from 1qb0_A</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>376</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50206 RHODANESE_3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>431</fstart><fstop>431</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_ACT_SITE_ from P30305</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>299</fstart><fstop>299</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 and CHK2 By simi from P48964</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>229</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_Phosphoserine by CHK1 from MPIP1_HUMAN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>266</fstart><fstop>271</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_FN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>81</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>672</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------mdmyrsapahvrghgrlsglpvvkalf--sceadtasalspvtnlalnmdqlavlgsqcetp------------krklcdrfslqrsdssesmdaglglesprv-lnfknleetfekalhdssrn-pnakipvgrrrslpqn-lgsspafkrnlsdslscelf-----------gddenkene---pfqfkiparpsfrsftrprcqge-gkealvqrqksapacmfsspgtdtesrshd--------------------------lvlvrrsscts--tttessddgfldmld-gedeesdaevpcgvaslwtaplvlsrp--------------------------------qvshetgspsh-tpvaraatkrpelphgdmpekikrrrsmfevteehepekg----------------lclmrsksfsketiesifds--dqrdligdfskaflfptvsgkhqelkyitpemmalilngqfdsliercviidcrypyeydgghirgainlymeqevenhllktsirpqg-skrvivifhcefssergprmykflrekdrdvn--eyphlhypelyilsggykdffqkckpfcdpegyrpmhhedfkddlrkcrmrsrtwagekskrelysrlkkl---
+</seq-data></sequence>
+</alignment>
+</macsim>
