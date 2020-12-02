@@ -1,13 +1,13 @@
-import BioAlignments: AbstractSubstitutionMatrix
+import BioAlignments: AbstractSubstitutionMatrix, AbstractScoreModel
 using BioSequences
 
-abstract type Profile
+abstract type Profile end
 struct ScoreProfile <: Profile
     # AlphabetCount × n
     data::Matrix{Float64}
 end
 
-@inilne Base.getindex(p::ScoreProfile, aa::AminoAcid, i) = let m = index(aa)
+@inline Base.getindex(p::ScoreProfile, aa::AminoAcid, i) = let m = index(aa)
     if m ≤ AlphabetCount
         p.data[m, i]
     elseif aa ≡ AA_B
@@ -21,18 +21,17 @@ end
 @inline Base.getindex(p::ScoreProfile, m, i) = p.data[m, i]
 Base.setindex!(p::ScoreProfile, val, m, i) = p.data[m, i] = val
 
-function create_profile(records::Records)
-    n = sequence(records[1]) |> length
+function create_profile(sequences::SequenceList)
+    n = length(sequences[1])
     profile = zeros(AlphabetCount, n)
-    for record in records
-        seq = sequence(record)
-        @assert length(seq) ≡ n
+    for seq in sequences
+        @assert length(seq) ≤ n
         @inbounds for i in 1:n
             r = seq[i]
-            if r ≡ BioSymbols.AA_B
+            if r ≡ AA_B
                 profile[index(AA_D), i] += 0.5
                 profile[index(AA_N), i] += 0.5
-            elseif r ≡ BioSymbols.AA_Z
+            elseif r ≡ AA_Z
                 profile[index(AA_E), i] += 0.5
                 profile[index(AA_Q), i] += 0.5
             elseif r ∉ Alphabets
@@ -46,12 +45,12 @@ function create_profile(records::Records)
 end
 
 function ScoreProfile(
-    records::Records, submat::AbstractSubstitutionMatrix
+    sequences::SequenceList, submat::AbstractSubstitutionMatrix
 )
-    profile = create_profile(records)
-    nrecords = length(records)
-    profile.data ./= nrecords
-    n = size(profile, 2)
+    profile = create_profile(sequences)
+    nseq = length(sequences)
+    profile.data ./= nseq
+    n = size(profile.data, 2)
     for i in 1:n
         profile[:, i] = submat.data[1:AlphabetCount, 1:AlphabetCount] * profile[:, i]
     end
@@ -69,7 +68,7 @@ end
 Base.setindex!(p::FeatureProfile, val, feature) = p.data[feature] = val
 
 function FeatureProfile(
-    records::Records,
+    records::RecordList,
     motif_weight
 ) 
     motifs = Set{String}()
@@ -81,13 +80,14 @@ function FeatureProfile(
     FeatureProfile(Dict(), motifs, motif_weight)
 end
 
-function get_occurences(fp::FeatureProfile, records::Records)
-    n = length(records[1])
+function get_occurences(fp::FeatureProfile, sequences::SequenceList)
+    n = length(sequences[1])
     occurences = Dict(motif => zeros(n) for motif in fp.motifs)
     for i in 1:n
-        for record in records
-            for motif in record.motifs
-                occurences[motif.id][motif.range] .+= 1.0
+        for seq in sequences
+            @assert length(seq) ≤ n
+            for motif in seq.features[i]
+                occurences[motif][i] += 1.0
             end
         end
     end
@@ -99,17 +99,29 @@ function score_motif(fp::FeatureProfile, occurences, i, motif)
     occurences[motif][i] * fp.motif_weight
 end
 
-function update!(fp::FeatureProfile, records::Records) 
-    occurences = get_occurences(fp, records)
-    nrecords = length(records)
+function update!(fp::FeatureProfile, sequences::SequenceList) 
+    occurences = get_occurences(fp, sequences)
+    nseq = length(sequences)
     for (_, occ) in occurences
-        occ ./= nrecords
+        occ ./= nseq
     end
-    n = length(records[1])
+    n = length(sequences[1])
     for motif in fp.motifs
         fp.data[motif] = [
             score_motif(fp, occurences, i, motif)
             for i in 1:n
         ]
     end
+end
+
+
+struct DisorderMSAModel{
+    S <: AbstractSubstitutionMatrix
+} <: AbstractScoreModel{Float64}
+    score_profile::Ref{ScoreProfile}
+    feature_profile::FeatureProfile
+    submat::S
+    gap_opening_penalty::Float64
+    gap_extension_penalty::Float64
+    ending_gaps_penalty::Float64
 end

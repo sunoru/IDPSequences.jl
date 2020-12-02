@@ -6,7 +6,7 @@ const AlphabetCount = length(Alphabets)
 
 # Scoring Matrix
 const DisorderScoringMatrix = parse_ncbi_submat(
-    BioSymbols.AminoAcid, joinpath(dirname(@__FILE__), "data", "submat", "DISORDER")
+    AminoAcid, joinpath(dirname(@__FILE__), "data", "submat", "DISORDER")
 )
 
 index(s::AminoAcid) = reinterpret(UInt8, s) + 0x01

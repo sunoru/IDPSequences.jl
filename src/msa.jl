@@ -1,59 +1,99 @@
-using FASTX
+using BioSequences
 
-struct DisorderMSAModel{
-    S <: AbstractSubstitutionMatrix{Float64}
-} <: AbstractScoreModel{Float64}
-    score_profile::ScoreProfile
-    feature_profile::FeatureProfile
-    submat::S
-    gap_opening_penalty::Float64
-    gap_extension_penalty::Float64
-    ending_gaps_penalty::Float64
+function calc_identity(s1, s2, seq1)
+    n = length(s1)
+    @assert length(s2) ≡ n
+    gaps = 0
+    identicals = 0
+    @inbounds for i in 1:n
+        if s1[i] ≡ AA_Gap
+            gaps += 1
+        elseif s2[i] ≡ seq1[i - gaps]
+            identicals += 1
+        end
+    end
+    identicals / n
 end
 
-function pairwise_align(record::Record, model::DisorderMSAModel)
-    n1 = size(model.score_profile.data, 2)
-    seq = sequence(record)
-    n2 = length(seq)
-    # Three matrices: V, H, G
-    V = zeros(n1 + 1, n2 + 1)
-    H = zeros(n1 + 1, n2 + 1)
-    G = zeros(n1 + 1, n2 + 1)
-
-    for i = 2:n1 + 1
-        V[i, 1] = G[i, 1] = -∞
-        H[i, 1] = (i - 1) * model.ending_gaps_penalty
-    end
-    for i = 2:n2 + 1
-        V[1, i] = H[1, i] = -∞
-        G[1, i] = (i - 1) * model.ending_gaps_penalty
-    end
+function get_identities(records::RecordList, model::DisorderMSAModel)
+    seq1 = sequence(records[1])
+    gapped = true
+    identities = [if i ≡ 1
+        1.0
+    else
+        s1, s2 = pairwise_align(FeaturedSequence(record), model, gapped)
+        identity = calc_identity(s1, s2, seq1)
+    end for (i, record) in enumerate(records)]
 end
 
-function get_identities(records::Records, model::DisorderMSAModel)
-    nrecords = length(records)
-
+function perform_msa_round(
+    (aligned1, aligned2)::NTuple{2, Vector{FeaturedSequence}},
+    aligned_number::Int,
+    sequences::SequenceList, model::DisorderMSAModel,
+    identities, cutoff
+)
+    next_alignments = sum(identities .≥ cutoff)
+    if next_alignments ≤ aligned_number
+        return (aligned1, aligned2)
+    end
+    seq1 = sequences[1]
+    aligned1 = [seq1]
+    aligned2 = [seq1]
+    nseq = length(sequences)
+    first_gapped = false
+    for i in 2:nseq
+        if identities[i] ≥ cutoff
+            @inbounds seq = sequences[i]
+            s1, s2 = pairwise_align(seq, model, first_gapped)
+            push!(aligned1, s1)
+            push!(aligned2, s2)
+        end
+    end
+    aligned1, aligned2
 end
 
 function msa(
-    records::Records;
+    records::RecordList;
+    first_gapped = false,
     gap_opening_penalty = -5.0,
     gap_extension_penalty = -1.0,
     ending_gaps_penalty = -0.1,
     motif_weight = 3,
-    submat = DisorderScoringMatrix
+    submat = DisorderScoringMatrix,
+    one_round = false
 )
+    @assert length(records) > 0
     n = length(records[1])
-    init_records = [records[1]]
-    score_profile = ScoreProfile(init_records, submat)
-    feature_profile = FeatureProfile(n, motif_weight)
-    update!(feature_profile, init_records)
+    original_sequences = FeaturedSequence.(records)
+    init_sequences = [original_sequences[1]]
+    score_profile = ScoreProfile(init_sequences, submat)
+    feature_profile = FeatureProfile(records, motif_weight)
+    update!(feature_profile, init_sequences)
     model = DisorderMSAModel(
-        score_profile, feature_profile, submat,
+        Ref(score_profile), feature_profile, submat,
         gap_opening_penalty, gap_extension_penalty, ending_gaps_penalty
     )
     # Align all to the first
-    identities = [1.0]
+    identities = get_identities(records, model)
+    aligned = (FeaturedSequence[], FeaturedSequence[])
+    alignments = 0
+    if !one_round
+        for i in 1:9
+            cutoff = (9 - i) / 10
+            aligned = perform_msa_round(aligned, alignments, original_sequences, model, identities, cutoff)
+            new_alignments = length(aligned[1])
+            if alignments < new_alignments
+                alignments = new_alignments
+                update!(feature_profile, aligned[1])
+                model.score_profile[] = ScoreProfile(aligned[1], submat)
+            end
+        end
+    end
+    alignments = 0
+    cutoff = 0
+    aligned = perform_msa_round(aligned, alignments, original_sequences, model, identities, cutoff)
+    # update!(feature_profile, aligned[1])
+    # model.score_profile[] = ScoreProfile(aligned[1])
+    # if optimize ...
+    aligned[2]
 end
-
-msa(filename_or_records; kwargs...) = msa(parse_fasta(filename_or_records); kwargs...)

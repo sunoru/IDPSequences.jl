@@ -7,3 +7,5 @@ build/
 .idea/
 .vscode/
 *.swp
+
+test/test1.yaml
