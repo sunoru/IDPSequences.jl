@@ -7,5 +7,7 @@ build/
 .idea/
 .vscode/
 *.swp
+*.log
 
 test/test1.yaml
+test/test1.msf

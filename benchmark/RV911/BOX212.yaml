@@ -1,0 +1,32 @@
+O35305:
+  - range:
+      - 72
+      - 80
+    id: "LIG_TRAF6"
+  - range:
+      - 338
+      - 346
+    id: "LIG_TRAF6"
+  - range:
+      - 371
+      - 379
+    id: "LIG_TRAF6"
+  - range:
+      - 445
+      - 453
+    id: "LIG_TRAF6"
+Q1ECV9:
+Q4S672:
+Q8C4K3:
+Q60846:
+Q805B0:
+Q07011:
+  - range:
+      - 234
+      - 237
+    id: "LIG_TRAF2_1"
+  - range:
+      - 246
+      - 249
+    id: "LIG_TRAF2_1"
+Q3UK82:

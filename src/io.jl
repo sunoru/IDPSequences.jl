@@ -1,3 +1,4 @@
+using Printf
 using FASTX
 
 load_fasta(fasta_file) = collect(open(FASTA.Reader, fasta_file))
@@ -15,12 +16,70 @@ function load_data(fasta_file, motif_file)
     records
 end
 
-function Base.print(io::IO, seq::FeaturedSequence)
-    if sum(seq.lowered) ≡ 0
-        print(io, String(seq.sequence))
-    else
-        print(io, join(let c = Char(x)
-            seq.lowered[i] ? lowercase(c) : c
-        end for (i, x) in enumerate(seq.sequence)))
+function Base.convert(::Type{S}, seq::FeaturedSequence) where {S <: AbstractString}
+    chars = Char[]
+    last_index = 0
+    for (i, x) in enumerate(seq.sequence)
+        c = Char(x)
+        if x ≠ AA_Gap
+            if seq.indices[i] ≠ last_index + 1
+                if length(chars) > 0
+                    chars[end] = lowercase(chars[end])
+                end
+                c = lowercase(c)
+            end
+            last_index = seq.indices[i]
+        end
+        push!(chars, c)
+    end
+    if seq.indices[end] < seq.length
+        chars[end] = lowercase(chars[end])
+    end
+    S(chars)
+end
+Base.String(seq::FeaturedSequence) = convert(String, seq)
+
+Base.print(io::IO, seq::FeaturedSequence) = print(io, String(seq))
+
+function get_next_index(seq, start)
+    for i in start + 1:length(seq)
+        seq.indices[i] > 0 && return i
+    end
+    -∞
+end
+
+function save_msf(filename::AbstractString, sequences::SequenceList, records::RecordList)
+    nseqs = length(sequences)
+    @assert nseqs > 0 && nseqs ≡ length(records)
+    originals = sequence.(records)
+    original_lengths = length.(originals)
+    # TODO: regenerate the gaps
+    # aa_seqs = [AminoAcid[] for _ in 1:nseqs]
+    aa_seqs = collect.(String.(sequences))
+
+    open(filename, "w") do fo
+        n = length(aa_seqs[1])
+        # TODO: checksum?
+        @printf fo "PileUp\n\n\n\n   MSF:%5d  Type: P    Check:  0000   ..\n\n" n
+        for record in records
+            @printf fo "Name: %s oo  Len:%5d  Check:  0000  Weight:  10.0\n" identifier(record) n
+        end
+        @printf fo "\n//\n\n"
+        line_startings = [["$(identifier(record))     "] for record in records]
+        i = 0
+        while i < n
+            @printf fo "\n\n"
+            lines = deepcopy(line_startings)
+            for _ in 1:5
+                for (j, seq) in enumerate(aa_seqs)
+                    push!(lines[j], join(c ≡ '-' ? '.' : c for c in seq[i+1:min(i+10, n)]))
+                end
+                i += 10
+                i ≥ n && break
+            end
+            for line in lines
+                println(fo, join(line, " "))
+            end
+        end
     end
 end

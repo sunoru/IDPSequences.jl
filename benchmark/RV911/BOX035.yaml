@@ -1,0 +1,33 @@
+P41243:
+Q9Y1Y9:
+P53356:
+Q9Y1Y3:
+P00520:
+  - range:
+      - 443
+      - 449
+    id: "MOD_PIKK_1"
+Q90601:
+Q05397:
+  - range:
+      - 907
+      - 912
+    id: "DOC_WW_Pin1_4"
+  - range:
+      - 925
+      - 928
+    id: "LIG_SH2_GRB2like"
+  - range:
+      - 397
+      - 400
+    id: "LIG_SH2_SRC"
+  - range:
+      - 712
+      - 717
+    id: "LIG_SH3_2"
+  - range:
+      - 907
+      - 913
+    id: "MOD_ProDKin_1"
+Q00993:
+O76978:

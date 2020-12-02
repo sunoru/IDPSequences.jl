@@ -1,0 +1,17 @@
+Q5I4E2:
+Q7Q0F6:
+Q25197:
+P06213:
+  - range:
+      - 993
+      - 999
+    id: "LIG_PTB_Phospho_1"
+  - range:
+      - 1361
+      - 1364
+    id: "LIG_SH2_STAT5"
+  - range:
+      - 1021
+      - 1026
+    id: "TRG_LysEnd_APsAcLL_1"
+Q4L0H7:

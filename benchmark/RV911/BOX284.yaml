@@ -1,0 +1,22 @@
+Q9NQ25:
+  - range:
+      - 280
+      - 287
+    id: "LIG_TYR_ITSM"
+  - range:
+      - 300
+      - 307
+    id: "LIG_TYR_ITSM"
+LY9_HUMAN:
+  - range:
+      - 599
+      - 606
+    id: "LIG_TYR_ITSM"
+  - range:
+      - 622
+      - 629
+    id: "LIG_TYR_ITSM"
+SLAF6_MOUSE:
+Q544K1:
+Q5M7A8:
+P31809:

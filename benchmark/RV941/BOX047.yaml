@@ -1,0 +1,40 @@
+Q20HX6:
+Q8JUD4:
+Q9IBK8:
+Q20HY2:
+P03074:
+Q80FI1:
+P24597:
+Q20HY1:
+P03070:
+  - range:
+      - 699
+      - 705
+    id: "DEG_SCF_FBW7_2"
+  - range:
+      - 101
+      - 119
+    id: "LIG_Rb_LxCxE_1"
+  - range:
+      - 127
+      - 132
+    id: "TRG_NLS_MonoCore_2"
+  - range:
+      - 127
+      - 133
+    id: "TRG_NLS_MonoExtC_3"
+  - range:
+      - 126
+      - 132
+    id: "TRG_NLS_MonoExtN_4"
+  - range:
+      - 127
+      - 132
+    id: "TRG_NLS_MonoExtN_4"
+P03075:
+Q2I7F8:
+P03082:
+P04008:
+Q20HX5:
+P24851:
+Q80FI2:

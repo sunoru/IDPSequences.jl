@@ -1,0 +1,20 @@
+Q8UW84:
+Q8UW83:
+Q6PA47:
+P06213:
+  - range:
+      - 993
+      - 999
+    id: "LIG_PTB_Phospho_1"
+  - range:
+      - 1361
+      - 1364
+    id: "LIG_SH2_STAT5"
+  - range:
+      - 1021
+      - 1026
+    id: "TRG_LysEnd_APsAcLL_1"
+O73798:
+Q5VZS3:
+O02466:
+Q1LWJ4:

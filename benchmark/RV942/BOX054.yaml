@@ -1,0 +1,64 @@
+Q7T6Y2:
+Q00VP2:
+Q84U74:
+Q54TM7:
+KSR1_HUMAN__1:
+Q93ZU3:
+Q00Z60:
+Q019B7:
+Q23CF7:
+Q5M7Y2:
+O80865:
+Q4H2W3:
+A0DHI3:
+Q39886:
+Q2TAR1:
+P04627:
+Q55A09:
+O24027:
+P11346:
+Q5K4U1:
+Q55GU0:
+P04049:
+  - range:
+      - 231
+      - 235
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 254
+      - 263
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 618
+      - 623
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 254
+      - 262
+    id: "MOD_PKB_1"
+Q5CVX5:
+Q8ISD2:
+A0CFH2:
+Q6A1B3:
+Q7XXN2:
+A0C025:
+Q24734:
+Q019B0:
+Q6INV2:
+Q54TA1:
+A0PJT2:
+  - range:
+      - 333
+      - 341
+    id: "DOC_MAPK_MEF2A_6"
+  - range:
+      - 393
+      - 396
+    id: "DOC_PP2B_LxvP_1"
+A0DRH3:
+Q54H45:
+Q8LPH3:
+Q9FGB1:
+Q54U31:
+Q3E8D9:
+Q23K41:

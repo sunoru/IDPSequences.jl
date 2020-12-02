@@ -1,0 +1,17 @@
+Q55PZ1:
+Q59DY7:
+Q2ULE5:
+P34208:
+O14757:
+  - range:
+      - 1
+      - 5
+    id: "LIG_BIR_III_1"
+  - range:
+      - 314
+      - 320
+    id: "MOD_PIKK_1"
+  - range:
+      - 342
+      - 348
+    id: "MOD_PIKK_1"

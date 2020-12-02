@@ -1,0 +1,32 @@
+Q8SPQ5:
+LIRB4_HUMAN:
+P83556:
+Q8MJZ7:
+P43630:
+  - range:
+      - 396
+      - 401
+    id: "LIG_TYR_ITIM"
+Q4VWT0:
+Q863H2:
+SN_MOUSE:
+P0C1X9:
+CD22_HUMAN:
+  - range:
+      - 807
+      - 811
+    id: "LIG_SH2_STAP1"
+  - range:
+      - 822
+      - 826
+    id: "LIG_SH2_STAP1"
+A0N0M1:
+Q5ZJ90:
+Q6UV36:
+Q67EV2:
+O60926:
+Q673W3:
+LAIR1_HUMAN:
+Q19LI2:
+LIRB4_MOUSE:
+Q95L81:

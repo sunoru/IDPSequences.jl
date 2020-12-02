@@ -1,0 +1,25 @@
+Q8WSQ5:
+P30311:
+Q5ZHY7:
+Q640K0:
+Q4F782:
+P30307:
+  - range:
+      - 150
+      - 154
+    id: "DEG_APCC_KENBOX_2"
+  - range:
+      - 195
+      - 201
+    id: "MOD_Plk_1"
+  - range:
+      - 188
+      - 194
+    id: "MOD_Plk_2-3"
+  - range:
+      - 189
+      - 203
+    id: "TRG_NES_CRM1_1"
+Q6RUW4:
+P48964:
+MPIP2_HUMAN__2:

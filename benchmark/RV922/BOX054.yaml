@@ -1,0 +1,38 @@
+KSR1_HUMAN__1:
+Q76I87:
+Q5M7Y2:
+Q4H2W3:
+P04627:
+P11346:
+Q5K4U1:
+P04049:
+  - range:
+      - 231
+      - 235
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 254
+      - 263
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 618
+      - 623
+    id: "LIG_14-3-3_CanoR_1"
+  - range:
+      - 254
+      - 262
+    id: "MOD_PKB_1"
+Q8ISD2:
+Q6A1B3:
+Q24734:
+Q6INV2:
+A0PJT2:
+  - range:
+      - 333
+      - 341
+    id: "DOC_MAPK_MEF2A_6"
+  - range:
+      - 393
+      - 396
+    id: "DOC_PP2B_LxvP_1"
+KRAF1_CAEEL__1:

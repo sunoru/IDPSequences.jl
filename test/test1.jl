@@ -1,15 +1,18 @@
 using IDPSequences
 
+@info "Test 1..."
 fasta_file = joinpath(@__DIR__, "test1.fasta")
 motif_file = joinpath(@__DIR__, "test1.yaml")
 if !isfile(motif_file)
-    fastas = load_fasta(fasta_file)
-    records = ELM.get_data.([identifier(x) for x in fastas])
-    ELM.save_yaml(motif_file, records)
+    ELM.prepare_motifs(fasta_file, motif_file)
 end
 records = load_data(fasta_file, motif_file)
 
-aligned1, aligned2 = msa(records)
+aligned = msa(records)
 
-println(aligned1)
-println(aligned2)
+for each in aligned
+    println(each)
+end
+
+msf_file = joinpath(@__DIR__, "test1.msf")
+save_msf(msf_file, aligned, records)

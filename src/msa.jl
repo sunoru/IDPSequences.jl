@@ -15,18 +15,18 @@ function calc_identity(s1, s2, seq1)
     identicals / n
 end
 
-function get_identities(records::RecordList, model::DisorderMSAModel)
-    seq1 = sequence(records[1])
+function get_identities(sequences::SequenceList, model::DisorderMSAModel)
+    seq1 = sequence(sequences[1])
     gapped = true
     identities = [if i ≡ 1
         1.0
     else
-        s1, s2 = pairwise_align(FeaturedSequence(record), model, gapped)
+        s1, s2 = pairwise_align(seq, model, gapped)
         identity = calc_identity(s1, s2, seq1)
-    end for (i, record) in enumerate(records)]
+    end for (i, seq) in enumerate(sequences)]
 end
 
-function perform_msa_round(
+function perform_msa_round_ungapped(
     (aligned1, aligned2)::NTuple{2, Vector{FeaturedSequence}},
     aligned_number::Int,
     sequences::SequenceList, model::DisorderMSAModel,
@@ -52,6 +52,39 @@ function perform_msa_round(
     aligned1, aligned2
 end
 
+function merge_alignments(
+    (aligned1, aligned2)::NTuple{2, Vector{FeaturedSequence}}
+)
+# TODO
+    aligned1, aligned2
+end
+
+function perform_msa_round_gapped(
+    (aligned1, aligned2)::NTuple{2, Vector{FeaturedSequence}},
+    aligned_number::Int,
+    sequences::SequenceList, model::DisorderMSAModel,
+    identities, cutoff
+)
+    next_alignments = sum(identities .≥ cutoff)
+    if next_alignments ≤ aligned_number
+        return (aligned1, aligned2)
+    end
+    aligned1 = FeaturedSequence[]
+    aligned2 = FeaturedSequence[]
+    nseq = length(sequences)
+    first_gapped = true
+    for i in 1:nseq
+        if identities[i] ≥ cutoff
+            @inbounds seq = sequences[i]
+            s1, s2 = pairwise_align(seq, model, first_gapped)
+            push!(aligned1, s1)
+            push!(aligned2, s2)
+        end
+    end
+    aligned1, aligned2 = merge_alignments(aligned1, aligned2)
+end
+
+
 function msa(
     records::RecordList;
     first_gapped = false,
@@ -74,9 +107,10 @@ function msa(
         gap_opening_penalty, gap_extension_penalty, ending_gaps_penalty
     )
     # Align all to the first
-    identities = get_identities(records, model)
+    identities = get_identities(original_sequences, model)
     aligned = (FeaturedSequence[], FeaturedSequence[])
     alignments = 0
+    perform_msa_round = first_gapped ? perform_msa_round_gapped : perform_msa_round_ungapped
     if !one_round
         for i in 1:9
             cutoff = (9 - i) / 10

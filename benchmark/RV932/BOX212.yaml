@@ -1,0 +1,104 @@
+P41272:
+Q5U3H1:
+Q800K8:
+Q9JLL3:
+Q8C4K3:
+Q01FT6:
+Q3U3N2:
+Q6GT31:
+Q9PRG7:
+Q4SNE8:
+Q4S5U4:
+Q5VYX9:
+Q8SQ34:
+Q511H8:
+Q76B99:
+Q4G265:
+P47741:
+Q3MHI9:
+O35305:
+  - range:
+      - 72
+      - 80
+    id: "LIG_TRAF6"
+  - range:
+      - 338
+      - 346
+    id: "LIG_TRAF6"
+  - range:
+      - 371
+      - 379
+    id: "LIG_TRAF6"
+  - range:
+      - 445
+      - 453
+    id: "LIG_TRAF6"
+Q1RM18:
+Q5U0I4:
+  - range:
+      - 239
+      - 241
+    id: "LIG_PDZ_Wminus1_1"
+Q5RDW2:
+Q4RX52:
+Q98SM6:
+Q9Y6Q6:
+  - range:
+      - 71
+      - 79
+    id: "LIG_TRAF6"
+  - range:
+      - 342
+      - 350
+    id: "LIG_TRAF6"
+  - range:
+      - 375
+      - 383
+    id: "LIG_TRAF6"
+  - range:
+      - 451
+      - 459
+    id: "LIG_TRAF6"
+Q800K7:
+Q3ZC74:
+Q3UK82:
+Q7YRL5:
+Q0P3W3:
+Q76LB4:
+SCUB2_HUMAN:
+O08712:
+TNR1B_HUMAN:
+  - range:
+      - 129
+      - 132
+    id: "LIG_TRAF2_1"
+  - range:
+      - 424
+      - 427
+    id: "LIG_TRAF2_1"
+Q60846:
+Q4V895:
+Q07011:
+  - range:
+      - 234
+      - 237
+    id: "LIG_TRAF2_1"
+  - range:
+      - 246
+      - 249
+    id: "LIG_TRAF2_1"
+Q1ECV9:
+Q5YLP0:
+Q800I0:
+Q4S672:
+Q805B0:
+Q3ZTK5:
+Q9DDD2:
+Q5T7K5:
+Q9DFV0:
+Q3LRP1:
+TNR5_MOUSE:
+  - range:
+      - 235
+      - 243
+    id: "LIG_TRAF6"

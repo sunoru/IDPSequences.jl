@@ -32,7 +32,8 @@ Base.length(r::Record) = length(sequence(r))
 struct FeaturedSequence
     sequence::LongAminoAcidSeq
     features::Vector{Set{String}}
-    lowered::Vector{Bool}
+    indices::Vector{Int}
+    length::Int
 end
 const SequenceList = AbstractVector{FeaturedSequence}
 
@@ -41,7 +42,7 @@ Base.length(s::FeaturedSequence) = length(s.sequence)
 Base.setindex(s::FeaturedSequence, val, i) = Base.setindex(s.sequence, val, i)
 sequence(s::FeaturedSequence) = s.sequence
 
-FeaturedSequence(s, f) = FeaturedSequence(s, f, zeros(Bool, length(s)))
+FeaturedSequence(s, f) = FeaturedSequence(s, f, collect(1:length(s)), length(s))
 
 function FeaturedSequence(s::LongAminoAcidSeq, motifs::AbstractVector{Feature} = [])
     n = length(s)
@@ -51,7 +52,7 @@ function FeaturedSequence(s::LongAminoAcidSeq, motifs::AbstractVector{Feature} =
             push!(features[i], motif.id)
         end
     end
-    FeaturedSequence(s, features, zeros(Bool, n))
+    FeaturedSequence(s, features, collect(1:n), n)
 end
 
 FeaturedSequence(r::Record) = FeaturedSequence(sequence(r), motifs(r))

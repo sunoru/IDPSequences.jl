@@ -1,0 +1,20 @@
+O00257:
+  - range:
+      - 472
+      - 476
+    id: "LIG_CtBP_PxDLS_1"
+  - range:
+      - 461
+      - 468
+    id: "LIG_SUMO_SIM_anti_2"
+  - range:
+      - 461
+      - 468
+    id: "LIG_SUMO_SIM_par_1"
+Q804D1:
+Q91647:
+  - range:
+      - 455
+      - 459
+    id: "LIG_CtBP_PxDLS_1"
+O93482:

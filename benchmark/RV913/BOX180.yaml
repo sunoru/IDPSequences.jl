@@ -1,0 +1,14 @@
+Q5DBA9:
+Q20546:
+Q1HQX4:
+A0AQ60:
+Q1HQA9:
+P49755:
+  - range:
+      - 215
+      - 219
+    id: "TRG_ER_diLys_1"
+  - range:
+      - 204
+      - 219
+    id: "TRG_Golgi_diPhe_1"

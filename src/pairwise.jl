@@ -39,29 +39,34 @@ function backtrace_alignment(
     s1 = AminoAcid[]
     s2 = AminoAcid[]
     features = Set{String}[]
+    indices = Int[]
     best_i, best_j = find_best_score(V, model.ending_gaps_penalty)
     i, j = n, m
     if best_i ≠ n || best_j ≠ m
         i, j = best_i, best_j
         for k in n - 1:-1:i
-            push!(s1, AA_A)  # temporarily use AA_A
+            push!(s1, AA_A)  # Dummy sequence
             push!(s2, AA_Gap)
             push!(features, Set{String}())
+            push!(indices, -length(s1))
         end
         for k in m - 1:-1:j
             push!(s1, AA_Gap)
             push!(s2, seq[k])
             push!(features, seq.features[k])
+            push!(indices, seq.indices[k])
         end
     end
     current_matrix = :V
     aa1 = AA_A
     aa2 = AA_A
     feature = Set{String}()
+    index = -1
     while i > 1 || j > 1
         if i > 1 && j > 1 && current_matrix ≡ :V
             aa1, aa2 = AA_A, seq[j - 1]
             feature = seq.features[j - 1]
+            index = seq.indices[j - 1]
             t = traces_V[i - 1, j - 1]
             if t == 2
                 current_matrix = :G
@@ -73,6 +78,7 @@ function backtrace_alignment(
         elseif i > 1 && current_matrix ≡ :H
             aa1, aa2 = AA_A, AA_Gap
             feature = Set{String}()
+            index = -length(s1) - 1
             t = j > 1 ? traces_H[i - 1, j - 1] : 0
             if t == 1
                 current_matrix = :V
@@ -83,6 +89,7 @@ function backtrace_alignment(
         elseif j > 1 && current_matrix ≡ :G
             aa1, aa2 = AA_Gap, seq[j - 1]
             feature = seq.features[j - 1]
+            index = seq.indices[j - 1]
             t = i > 1 ? traces_G[i - 1, j - 1] : 0
             if t == 1
                 current_matrix = :V
@@ -94,35 +101,28 @@ function backtrace_alignment(
         push!(s1, aa1)
         push!(s2, aa2)
         push!(features, feature)
+        push!(indices, index)
     end
-    FeaturedSequence.(
-        LongAminoAcidSeq.(reverse.((s1, s2))),
-        ([], features)
-    )
+    aligned1 = FeaturedSequence(LongAminoAcidSeq(reverse(s1)))
+    aligned2 = FeaturedSequence(LongAminoAcidSeq(reverse(s2)), reverse(features), reverse(indices), seq.length)
+    aligned1, aligned2
 end
 
 function remove_gaps(s1::FeaturedSequence, s2::FeaturedSequence)
     aligned = AminoAcid[]
     features = Set{String}[]
-    lowered = []
+    indices = Int[]
     n = length(s1)
-    lower_flag = false
     for i in 1:n
-        if s1[i] ≡ AA_Gap
-            if length(lowered) > 0
-                lowered[end] = true
-            end
-            lower_flag = true
-        else
+        if s1[i] ≠ AA_Gap
             push!(aligned, s2[i])
             push!(features, s2.features[i])
-            push!(lowered, lower_flag)
-            lower_flag = false
+            push!(indices, s2.indices[i])
         end
     end
     s = LongAminoAcidSeq(aligned)
     aligned1 = FeaturedSequence(s, features)
-    aligned2 = FeaturedSequence(copy(s), features, lowered)
+    aligned2 = FeaturedSequence(copy(s), features, indices, s2.length)
     aligned1, aligned2
 end
 
