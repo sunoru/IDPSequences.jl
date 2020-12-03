@@ -1,0 +1,84 @@
+O60516:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range:
+      - 96
+      - 100
+    id: "DOC_WD40_RPTOR_TOS_1"
+  - range:
+      - 40
+      - 46
+    id: "LIG_eIF4E_1"
+Q13542:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [9, 15]
+    id: "MOD_PIKK_1"
+  - range: [20, 26]
+    id: "LIG_SUMO_SIM_par_1"
+  - range:
+      - 116
+      - 120
+    id: "DOC_WD40_RPTOR_TOS_1"
+  - range:
+      - 54
+      - 60
+    id: "LIG_eIF4E_1"
+Q0P5A7:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [7, 13]
+    id: "MOD_CDK_1"
+  - range: [16, 22]
+    id: "LIG_FHA_1"
+P70445:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [9, 15]
+    id: "MOD_PIKK_1"
+  - range: [20, 26]
+    id: "LIG_SUMO_SIM_par_1"
+Q13541:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [7, 13]
+    id: "MOD_CDK_1"
+  - range: [16, 22]
+    id: "LIG_FHA_1"
+  - range:
+      - 114
+      - 118
+    id: "DOC_WD40_RPTOR_TOS_1"
+  - range:
+      - 54
+      - 60
+    id: "LIG_eIF4E_1"
+Q62622:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [7, 13]
+    id: "MOD_CDK_1"
+  - range: [15, 21]
+    id: "LIG_FHA_1"
+  - range:
+      - 108
+      - 114
+    id: "MOD_PIKK_1"
+Q98TT6:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [19, 25]
+    id: "MOD_LATS_1"
+Q60876:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+  - range: [7, 13]
+    id: "MOD_CDK_1"
+  - range: [15, 21]
+    id: "LIG_FHA_1"
+Q54DU8:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"
+Q80VV3:
+  - range: [1, 5]
+    id: "LIG_BIR_II_1"

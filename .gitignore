@@ -9,5 +9,6 @@ build/
 *.swp
 *.log
 
-test/test1.yaml
-test/test1.msf
+test/test.yaml
+*.msf
+*.aligned

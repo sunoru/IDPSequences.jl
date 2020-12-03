@@ -23,10 +23,18 @@ Record(fasta::FASTA.Record, motifs) = let d = description(fasta)
 end
 const RecordList = AbstractVector{Record}
 
+function _get_unipro_id(id)
+    for each in split(id, "|")
+        isnothing(match(r"^[0-9A-Z]{6}$", each)) || return each
+    end
+    id
+end
+
 identifier(r::Record) = r.identifier
 description(r::Record) = r.description
 sequence(r::Record) = r.sequence
 motifs(r::Record) = r.motifs
+unipro_id(r::Record) = _get_unipro_id(r.identifier)
 Base.length(r::Record) = length(sequence(r))
 
 struct FeaturedSequence

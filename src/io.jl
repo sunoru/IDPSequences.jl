@@ -3,13 +3,16 @@ using FASTX
 
 load_fasta(fasta_file) = collect(open(FASTA.Reader, fasta_file))
 
-function load_data(fasta_file, motif_file)
+function load_data(
+    fasta_file,
+    motif_file = fasta_file[1:first(findlast(".", fasta_file))] * "yaml"
+)
     motifs = ELM.load_yaml(motif_file)
     records = Record[]
     open(fasta_file) do fi
         for fasta in load_fasta(fasta_file)
             push!(records, Record(
-                fasta, get(motifs, identifier(fasta), [])
+                fasta, get(motifs, _get_unipro_id(identifier(fasta)), [])
             ))
         end
     end
@@ -40,6 +43,10 @@ end
 Base.String(seq::FeaturedSequence) = convert(String, seq)
 
 Base.print(io::IO, seq::FeaturedSequence) = print(io, String(seq))
+Base.print(io::IO, seqs::SequenceList) = print(io, join(
+    (String(seq) for seq in seqs),
+    '\n'
+))
 
 function get_next_index(seq, start)
     for i in start + 1:length(seq)
@@ -62,10 +69,10 @@ function save_msf(filename::AbstractString, sequences::SequenceList, records::Re
         # TODO: checksum?
         @printf fo "PileUp\n\n\n\n   MSF:%5d  Type: P    Check:  0000   ..\n\n" n
         for record in records
-            @printf fo "Name: %s oo  Len:%5d  Check:  0000  Weight:  10.0\n" identifier(record) n
+            @printf fo "Name: %s oo  Len:%5d  Check:  0000  Weight:  10.0\n" unipro_id(record) n
         end
         @printf fo "\n//\n\n"
-        line_startings = [["$(identifier(record))     "] for record in records]
+        line_startings = [["$(unipro_id(record))     "] for record in records]
         i = 0
         while i < n
             @printf fo "\n\n"

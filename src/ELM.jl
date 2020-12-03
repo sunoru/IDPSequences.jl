@@ -3,9 +3,11 @@ module ELM
 using HTTP, YAML
 using FASTX
 
-using ..IDPSequences: Feature, Record, RecordList, load_fasta
+using ..IDPSequences: Feature, Record, RecordList, load_fasta, _get_unipro_id
 
-function get_data(unipro_id; read_fasta = true)
+
+function get_data(id; read_fasta = true)
+    unipro_id = _get_unipro_id(id)
     r = HTTP.request("GET", "http://elm.eu.org/instances.gff?q=$unipro_id")
     @assert r.status == 200
     motifs = Feature[]
@@ -22,17 +24,17 @@ function get_data(unipro_id; read_fasta = true)
         elseif contains(line, "sequence_feature")
             tmp = split(line)
             start, ending = parse.([Int], tmp[4:5])
-            id = split(tmp[9], "=")[2]
-            push!(motifs, Feature(id, start:ending))
+            motif_id = split(tmp[9], "=")[2]
+            push!(motifs, Feature(motif_id, start:ending))
         end
     end
-    fasta = read_fasta ? FASTA.Record(unipro_id, join(fasta_lines)) : FASTA.Record
+    fasta = read_fasta ? FASTA.Record(id, join(fasta_lines)) : FASTA.Record(id, "")
     Record(fasta, motifs)
 end
 
 function save_yaml(filename::AbstractString, records::RecordList)
     data = Dict(
-        record.identifier => map(record.motifs) do motif
+        _get_unipro_id(record.identifier) => map(record.motifs) do motif
             t = Dict()
             t["id"] = motif.id
             t["range"] = [first(motif.range), last(motif.range)]
@@ -52,13 +54,13 @@ function load_yaml(filename)
     )
 end
 
-function prepare_motifs(fasta_file::AbstractString, motif_file = nothing)
+function prepare_motifs(fasta_file::AbstractString, motif_file = nothing; force = false)
     fastas = load_fasta(fasta_file)
-    if isnothing(motif_file)
+    if force || isnothing(motif_file)
         t = findlast(".", fasta_file)
         motif_file = fasta_file[1:first(t)] * "yaml"
     end
-    records = ELM.get_data.([identifier(x) for x in fastas])
+    records = ELM.get_data.([identifier(x) for x in fastas]; read_fasta = false)
     ELM.save_yaml(motif_file, records)
 end
 

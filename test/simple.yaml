@@ -1,0 +1,15 @@
+TEST01:
+  - range: [6, 6]
+    id: ptm
+TEST02:
+  - range: [1, 1]
+    id: ptm
+TEST03:
+  - range: [1, 1]
+    id: ptm
+TEST04:
+  - range: [1, 1]
+    id: ptm
+TEST05:
+  - range: [5, 5]
+    id: ptm

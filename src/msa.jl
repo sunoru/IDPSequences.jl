@@ -84,16 +84,13 @@ function perform_msa_round_gapped(
     aligned1, aligned2 = merge_alignments(aligned1, aligned2)
 end
 
-
-function msa(
-    records::RecordList;
-    first_gapped = false,
-    gap_opening_penalty = -5.0,
-    gap_extension_penalty = -1.0,
-    ending_gaps_penalty = -0.1,
-    motif_weight = 3,
-    submat = DisorderScoringMatrix,
-    one_round = false
+function msa_init(
+    records::RecordList,
+    gap_opening_penalty,
+    gap_extension_penalty,
+    ending_gaps_penalty,
+    motif_weight,
+    submat
 )
     @assert length(records) > 0
     n = length(records[1])
@@ -106,6 +103,27 @@ function msa(
         Ref(score_profile), feature_profile, submat,
         gap_opening_penalty, gap_extension_penalty, ending_gaps_penalty
     )
+    model, original_sequences
+end
+
+
+function msa(
+    records::RecordList;
+    first_gapped = false,
+    gap_opening_penalty = -5.0,
+    gap_extension_penalty = -1.0,
+    ending_gaps_penalty = -0.1,
+    motif_weight = 3,
+    submat = DisorderScoringMatrix,
+    one_round = false
+)
+    model, original_sequences = msa_init(
+        records,
+        gap_opening_penalty, gap_extension_penalty, ending_gaps_penalty,
+        motif_weight, submat
+    )
+    feature_profile = model.feature_profile
+
     # Align all to the first
     identities = get_identities(original_sequences, model)
     aligned = (FeaturedSequence[], FeaturedSequence[])

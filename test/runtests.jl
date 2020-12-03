@@ -1,2 +1,2 @@
-include("./test1.jl")
-# include("./test2.jl")
+include("./simple.jl")
+include("./msa.jl")

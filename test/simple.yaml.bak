@@ -1,0 +1,15 @@
+TEST01:
+  - range: [6, 9]
+    id: motif
+TEST02:
+  - range: [1, 4]
+    id: motif
+TEST03:
+  - range: [1, 4]
+    id: motif
+TEST04:
+  - range: [1, 4]
+    id: motif
+TEST05:
+  - range: [5, 8]
+    id: motif

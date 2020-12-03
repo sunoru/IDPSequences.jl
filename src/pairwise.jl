@@ -2,7 +2,7 @@ using BioSequences
 
 update_score(
     (score, step), (new_score, new_step)
-) = if new_score > score
+) = if new_score ≥ score
     new_score, new_step
 else
     score, step
