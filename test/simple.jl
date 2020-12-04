@@ -10,7 +10,6 @@ records = load_data(fasta_file, motif_file)
 aligned1 = msa(
     records;
     motif_weight = 0,
-    # one_round = true,
     gap_opening_penalty = -3.0,
     gap_extension_penalty = -1.0,
     ending_gaps_penalty = -0.2,
@@ -21,7 +20,6 @@ println(aligned1)
 aligned2 = msa(
     records;
     motif_weight = 30,
-    # one_round = true,
     gap_opening_penalty = -3.0,
     gap_extension_penalty = -1.0,
     ending_gaps_penalty = -0.2,

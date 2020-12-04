@@ -41,10 +41,17 @@ function Base.convert(::Type{S}, seq::FeaturedSequence) where {S <: AbstractStri
     S(chars)
 end
 Base.String(seq::FeaturedSequence) = convert(String, seq)
+Base.String(record::Record) = convert(String, sequence(record))
 
 Base.print(io::IO, seq::FeaturedSequence) = print(io, String(seq))
 Base.print(io::IO, seqs::SequenceList) = print(io, join(
     (String(seq) for seq in seqs),
+    '\n'
+))
+
+Base.print(io::IO, record::Record) = print(io, String(record))
+Base.print(io::IO, records::RecordList) = print(io, join(
+    (String(record) for record in records),
     '\n'
 ))
 
